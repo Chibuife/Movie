@@ -1,0 +1,115 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ body{
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:  #f1f5f8;
+ }
+.body{
+  position: relative; 
+}
+
+
+.card{ 
+  overflow: hidden;
+  height: 370px;
+  width: 250px;
+  margin: 10px;
+}
+
+.cardPics{
+  height: fit-content;
+  width: 250px;
+}
+
+.cardContainer{
+  display: flex;
+  flex-wrap: wrap;
+   margin: 0 auto; 
+  justify-content:start;
+  /* align-items: center; */
+  width: 100%;
+  max-width: 1180px;
+}
+
+.hover{
+  transform: translateY(-70px);
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.533);
+  height: 100px;
+  padding-left: 5px;
+  transition: all 0.3s linear;
+}
+
+.nonhover{
+  transform: translateY(0px);
+  transition: all 0.3s linear;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none;
+}
+
+.title{
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.year{
+  color: white;
+}
+
+.aboutMovies{
+  display: flex;
+  margin: 50px;
+}
+:nth-child(1){
+  margin-right: 20px;
+}
+
+.movieTitle{
+  margin-bottom: 30px;
+}
+
+p{
+  padding-bottom: 20px;
+}
+
+h4{
+  padding-bottom: 20px;
+}
+.back,
+.back:link,
+.back:visited,
+.back:hover,
+.back:active{
+    text-decoration: none;
+}
+
+.back{
+  text-decoration: none;
+  background-color: #49a6e9;
+  color: white;
+  padding: 5px;
+}
+
+.topSection{
+  margin: 50px;
+  margin-left: 7.5em;
+}
+
+.input{
+   width: 50%;
+   height: 50px;
+   padding-left: 20px;
+   margin-top: 20px;
+   border: none;
+}
